@@ -15,9 +15,11 @@ Add the following under Additional Cron Jobs:
 * * * * * root /jffs/sleep40.sh > /dev/null 2>&1
 
 Add the following script to the router Startup:
+
 /jffs/checkBandwidthInterface.sh &
 
 Paste below into the commands window and select "Run Command"
+
 /jffs/checkBandwidthInterface.sh &
 
 Import Grafana json dashbaord.
